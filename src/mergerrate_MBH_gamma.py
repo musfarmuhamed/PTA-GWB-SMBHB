@@ -39,7 +39,7 @@ def xm(e0):
 
 def g(f):
     """Compute the g(f) function for frequency f."""
-	return 1.0e-15*(2.913*(f*1.0e8)**0.254*np.exp(-0.807*f*1.0e8)+74.24*(f*1.0e8)**1.77*np.exp(-3.7*f*1.0e8)+4.8*(f*1.0e8)**(-0.676)*np.exp(-0.6/(f*1.0e8)))
+    return 1.0e-15*(2.913*(f*1.0e8)**0.254*np.exp(-0.807*f*1.0e8)+74.24*(f*1.0e8)**1.77*np.exp(-3.7*f*1.0e8)+4.8*(f*1.0e8)**(-0.676)*np.exp(-0.6/(f*1.0e8)))
 
 def inpl(e, f, f0):
     """Interpolate the input function based on eccentricity and frequency."""
